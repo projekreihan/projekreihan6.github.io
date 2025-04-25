@@ -4,37 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenangan Kelas 12 TKJ</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
     <header>
-        <h1>Kenangan Kelas 12 TKJ</h1>
-        <nav>
-            <ul>
-                <li><a href="#foto">Foto</a></li>
-                <li><a href="#video">Video</a></li>
-            </ul>
-        </nav>
+        <h1>Kenangan Indah Kelas 12 TKJ</h1>
+        <p>Kumpulan momen tak terlupakan selama kita bersama.</p>
     </header>
 
-    <main>
-        <section id="foto" class="gallery">
-            <h2>Foto Kenangan</h2>
-            <div class="image-grid">
-                </div>
-        </section>
+    <section id="galeri-foto">
+        <h2>Galeri Foto</h2>
+        <div class="kontainer-galeri">
+            <div class="thumbnail">
+                <img src="foto1.jpg" alt="Foto Kenangan 1" data-src="foto1-large.jpg">
+            </div>
+            <div class="thumbnail">
+                <img src="foto2.jpg" alt="Foto Kenangan 2" data-src="foto2-large.jpg">
+            </div>
+            <div class="thumbnail">
+                <img src="foto3.jpg" alt="Foto Kenangan 3" data-src="foto3-large.jpg">
+            </div>
+          <div class="thumbnail">
+                <img src="foto4.jpg" alt="Foto Kenangan 4" data-src="foto4-large.jpg">
+            </div>
+            <div class="thumbnail">
+                <img src="foto5.jpg" alt="Foto Kenangan 5" data-src="foto5-large.jpg">
+            </div>
+            <div class="thumbnail">
+                <img src="foto6.jpg" alt="Foto Kenangan 6" data-src="foto6-large.jpg">
+            </div>
+            </div>
+    </section>
 
-        <section id="video" class="gallery">
-            <h2>Video Kenangan</h2>
-            <div class="video-grid">
-                </div>
-        </section>
-    </main>
+    <section id="galeri-video">
+        <h2>Galeri Video</h2>
+        <div class="kontainer-video">
+            <div class="video-wrapper">
+                <video src="video1.mp4" controls width="320" height="240"></video>
+            </div>
+            <div class="video-wrapper">
+                <video src="video2.mp4" controls width="320" height="240"></video>
+            </div>
+            <div class="video-wrapper">
+                <video src="video3.mp4" controls width="320" height="240"></video>
+            </div>
+            </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-button">&times;</span>
+        <img id="lightbox-image" src="" alt="Foto Besar">
+    </div>
 
     <footer>
         <p>&copy; 2025 Kenangan Kelas 12 TKJ by Reihan</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+                </html>
